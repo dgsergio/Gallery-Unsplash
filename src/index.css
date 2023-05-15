@@ -1,0 +1,33 @@
+@import url('https://cdn.jsdelivr.net/npm/water.css@2/out/dark.css');
+
+ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 30px;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.image-container {
+  list-style: none;
+  cursor: pointer;
+}
+
+.full-size {
+  width: 100%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  margin-bottom: 40px;
+}
+
+.full-size img {
+  max-height: 400px;
+}
+
+.error {
+  color: #ff7a7a;
+}
